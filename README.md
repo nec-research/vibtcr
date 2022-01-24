@@ -4,14 +4,14 @@ vibtcr
 │   README.md
 │   ... 
 │   
-└───data
+└───data/
 │   │   alpha-beta-splits/ (all TCR data, split in two disjoint sets: alpha+beta, beta-only)
 │   │   ergo2-paper/ (data used in the ERGO II paper - contains VDJDB and McPAS)
 │   │   mhc/ (the NetMHCIIpan-4.0 data)
 │   │   nettcr2-paper/ (data used in the NetTCR2.0 paper - contains IEDB, VDJDB and MIRA)
 │   │   vdjdb/ (complete VDJdb data from 5th of September)
 │   
-└───notebooks
+└───notebooks/
 │   │   notebooks.classification/ (TCR-peptide experiments with AVIB/MVIB)
 |   │   notebooks.mouse/ (identifying mouse TCRs as suitable OOD dataset)
 │   │   notebooks.ood/ (out-of-distribution detection experiments with AVIB)
