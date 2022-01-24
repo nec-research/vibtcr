@@ -47,4 +47,4 @@ TCR-peptide interaction prediction.
 cd vibtcr
 pip install .
 ```
-Remark: `vibtcr` requires a different version of PyTorch than `tcrmodels`. 
+Remark: `vibtcr` requires a different version of PyTorch than `tcrmodels`. It's recommended to install them in different environments.
