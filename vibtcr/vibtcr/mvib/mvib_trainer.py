@@ -14,7 +14,7 @@
 #  * Any unauthorized publication, transfer to third parties, or duplication of the object or
 #  * source code---either totally or in part---is strictly prohibited.
 #  *
-#  *     Copyright (c) 2019 Proprietor: Deleted for purposes of anonymity
+#  *     Copyright (c) 2022 Proprietor: Deleted for purposes of anonymity
 #  *     All Rights Reserved.
 #  *
 #  * THE PROPRIETOR DISCLAIMS ALL WARRANTIES, EITHER EXPRESS OR

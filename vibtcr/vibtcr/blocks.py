@@ -13,7 +13,7 @@
 #  * Any unauthorized publication, transfer to third parties, or duplication of the object or
 #  * source code---either totally or in part---is strictly prohibited.
 #  *
-#  *     Copyright (c) 2019 Proprietor: Deleted for purposes of anonymity
+#  *     Copyright (c) 2022 Proprietor: Deleted for purposes of anonymity
 #  *     All Rights Reserved.
 #  *
 #  * THE PROPRIETOR DISCLAIMS ALL WARRANTIES, EITHER EXPRESS OR
@@ -148,7 +148,7 @@ class ProductOfExperts(nn.Module):
 
 
 class MaxPoolOfExperts(nn.Module):
-    """ Compute joint postetior from single-modality posteriors
+    """ Compute joint posterior from single-modality posteriors
     using 1D max pooling.
     """
     def __init__(self):
@@ -170,7 +170,7 @@ class MaxPoolOfExperts(nn.Module):
 
 
 class AvgPoolOfExperts(nn.Module):
-    """ Compute joint postetior from single-modality posteriors
+    """ Compute joint posterior from single-modality posteriors
     using 1D average pooling.
     """
 
@@ -193,7 +193,7 @@ class AvgPoolOfExperts(nn.Module):
 
 
 class AttentionOfExperts(nn.Module):
-    """ Compute joint postetior from single-modality posteriors
+    """ Compute joint posterior from single-modality posteriors
     using multi-head attention.
     """
     def __init__(self, z_dim: int, heads: int, drop: int = _DROPOUT, layer_norm: bool = False):

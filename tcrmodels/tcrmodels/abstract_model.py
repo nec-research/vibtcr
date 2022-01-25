@@ -1,5 +1,5 @@
 """ An abstract class which guarantees a common interface
-fore the various TCR models.
+for the various TCR models.
 """
 from abc import ABC, abstractmethod
 
