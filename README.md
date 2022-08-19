@@ -34,9 +34,6 @@ vibtcr
 └───vibtcr/ (Python package which implements MVIB and AVIB for TCR-peptide interaction prediction)
 ```
 
-The compressed archives have the same content of the respective non-compressed folders.
-We add them to simplify the download from https://anonymous.4open.science/
-
 # tcrmodels
 `tcrmodels` wraps state-of-the-art ML-based TCR prediction models.
 So far, it includes:
