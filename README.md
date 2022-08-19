@@ -1,3 +1,15 @@
+# vibtcr
+`vibtcr` is a Python packages which implements the Mutlimodal Variational Information 
+Bottleneck (MVIB) and the Attentive Variational Information Bottleneck (AVIB), with a focus on
+TCR-peptide interaction prediction.
+
+### Install `vibtcr`
+```
+cd vibtcr
+pip install .
+```
+Remark: `vibtcr` requires a different version of PyTorch than `tcrmodels`. It's recommended to install them in different environments.
+
 # Content
 ```
 vibtcr
@@ -26,7 +38,7 @@ The compressed archives have the same content of the respective non-compressed f
 We add them to simplify the download from https://anonymous.4open.science/
 
 # tcrmodels
-`tcrmodels` wraps ML-based TCR prediction models.
+`tcrmodels` wraps state-of-the-art ML-based TCR prediction models.
 So far, it includes:
 * [ERGO II](https://github.com/IdoSpringer/ERGO-II)
 * [NetTCR2.0](https://github.com/mnielLab/NetTCR-2.0)
@@ -39,15 +51,3 @@ pip install torch===1.4.0 torchvision===0.5.0 -f https://download.pytorch.org/wh
 ```
 
 `tcrmodels` requires Python 3.6
-
-# vibtcr
-`vibtcr` is a Python packages which implements the Mutlimodal Variational Information 
-Bottleneck (MVIB) and the Attentive Variational Information Bottleneck (AVIB), with a focus on
-TCR-peptide interaction prediction.
-
-### Install `vibtcr`
-```
-cd vibtcr
-pip install .
-```
-Remark: `vibtcr` requires a different version of PyTorch than `tcrmodels`. It's recommended to install them in different environments.
