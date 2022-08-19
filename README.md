@@ -50,3 +50,10 @@ pip install torch===1.4.0 torchvision===0.5.0 -f https://download.pytorch.org/wh
 ```
 
 `tcrmodels` requires Python 3.6
+
+## References
+### ERGO II
+Springer I, Tickotsky N and Louzoun Y (2021), Contribution of T Cell Receptor Alpha and Beta CDR3, MHC Typing, V and J Genes to Peptide Binding Prediction. Front. Immunol. 12:664514. DOI: https://doi.org/10.3389/fimmu.2021.664514
+
+### NetTCR-2.0
+Montemurro, A., Schuster, V., Povlsen, H.R. et al. NetTCR-2.0 enables accurate prediction of TCR-peptide binding by using paired TCRα and β sequence data. Commun Biol 4, 1060 (2021). DOI: https://doi.org/10.1038/s42003-021-02610-3
