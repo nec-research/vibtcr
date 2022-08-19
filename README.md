@@ -3,6 +3,8 @@
 Bottleneck (MVIB) and the Attentive Variational Information Bottleneck (AVIB), with a focus on
 TCR-peptide interaction prediction.
 
+![architecture](architecture.png?raw=true "AVIB architecture")
+
 ### Install `vibtcr`
 ```
 cd vibtcr
