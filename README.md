@@ -3,6 +3,8 @@
 Bottleneck (MVIB) and the Attentive Variational Information Bottleneck (AVIB), with a focus on
 TCR-peptide interaction prediction.
 
+Paper: ["Attentive Variational Information Bottleneck for TCR–peptide interaction prediction"](https://doi.org/10.1093/bioinformatics/btac820),  F. Grazioli, P. Machart, A. Mösch, K. Li, L.V. Castorina, N. Pfeifer, M.R. Min, Bioinformatics 2022
+
 ![architecture](architecture.png?raw=true "AVIB architecture")
 
 ### Install `vibtcr`
@@ -59,3 +61,22 @@ Montemurro, A., Schuster, V., Povlsen, H.R. et al. NetTCR-2.0 enables accurate p
 
 # License
 For `vibtcr`, we provide a non-commercial license, see LICENSE.txt
+
+# Cite
+If you find this work useful, please cite:
+```
+@article{10.1093/bioinformatics/btac820,
+    author = {Grazioli, Filippo and Machart, Pierre and Mösch, Anja and Li, Kai and Castorina, Leonardo V and Pfeifer, Nico and Min, Martin Renqiang},
+    title = "{Attentive Variational Information Bottleneck for TCR–peptide interaction prediction}",
+    journal = {Bioinformatics},
+    volume = {39},
+    number = {1},
+    year = {2022},
+    month = {12},
+    issn = {1367-4811},
+    doi = {10.1093/bioinformatics/btac820},
+    url = {https://doi.org/10.1093/bioinformatics/btac820},
+    note = {btac820},
+    eprint = {https://academic.oup.com/bioinformatics/article-pdf/39/1/btac820/48493569/btac820.pdf},
+}
+```
