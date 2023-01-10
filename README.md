@@ -1,5 +1,5 @@
 # vibtcr
-`vibtcr` is a Python packages which implements the Mutlimodal Variational Information 
+`vibtcr` is a Python package which implements the Mutlimodal Variational Information 
 Bottleneck (MVIB) and the Attentive Variational Information Bottleneck (AVIB), with a focus on
 TCR-peptide interaction prediction.
 
